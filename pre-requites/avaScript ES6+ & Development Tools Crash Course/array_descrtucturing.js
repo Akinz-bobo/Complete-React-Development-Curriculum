@@ -71,3 +71,14 @@ if (status === "success" && !error) {
 } else {
   console.log("Error:", error);
 }
+
+const myArr = [1, 2, 3, 4, 5];
+const myObj = {
+  key1: 1,
+  key2: 2,
+  key3: 3,
+  key4: 4,
+  key5: 5,
+};
+
+myObj.key5;

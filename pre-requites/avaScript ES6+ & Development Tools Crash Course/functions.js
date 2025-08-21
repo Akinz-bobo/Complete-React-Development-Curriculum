@@ -17,7 +17,7 @@ const square = (x) => x * x;
 const squareExplicit = (x) => x * x; // Also valid
 
 // ✅ No parameters
-const getCurrentTime = () => new Date().toISOString();
+const getCurrentTime = () => new Date().toISOString(); // Current time in ISO format: 2023-10-05T12:34:56.789Z
 
 // ✅ Multiple lines with explicit return
 const processUser = (user) => {
